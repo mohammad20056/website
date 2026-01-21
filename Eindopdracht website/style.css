@@ -4,6 +4,14 @@
 body {
     margin: 0;
     padding: 0;
+  margin: 0;
+   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
 .navbar {
     display: flex;
@@ -135,4 +143,10 @@ padding: 60px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
